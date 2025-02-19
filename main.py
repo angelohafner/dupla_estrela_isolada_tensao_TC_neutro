@@ -20,6 +20,9 @@ with col3:
 with col4:
     z_imag = st.number_input("Parte imaginária (Ω)", value=-100.0)
 
+# Exibir a imagem
+st.image("dupla_estrela_isolada.png", caption="Diagrama do TC de Neutro", use_container_width=True)
+
 
 
 # Cálculo do omega
